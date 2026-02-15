@@ -415,6 +415,21 @@
       "unionType": "Fusion"
     },
     {
+      "atomType": "Readme",
+      "x": 0.4365079365079365,
+      "y": 0.5111111111111111,
+      "uniqueID": "id-814",
+      "name": "README",
+      "ioValues": [
+        {
+          "name": "value",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "readMeText": "This is a 60mm X and 63mm Y offset from the bottom left corner",
+      "global": true
+    },
+    {
       "atomType": "Molecule",
       "x": 0.22420634920634921,
       "y": 0.24166666666666664,
@@ -565,8 +580,8 @@
         },
         {
           "atomType": "Extrude",
-          "x": 0.5178571428571428,
-          "y": 0.6027777777777779,
+          "x": 0.5052910052910053,
+          "y": 0.5972222222222222,
           "uniqueID": "id-371",
           "ioValues": [
             {
@@ -1883,8 +1898,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 8,
-              "currentEquation": "8"
+              "ioValue": 8
             }
           ]
         },
@@ -2129,10 +2143,6 @@
                 {
                   "name": "distZ",
                   "ioValue": 0
-                },
-                {
-                  "name": "Shape",
-                  "ioValue": "__GEOMETRY_INPUT__"
                 }
               ],
               "codeVersion": 1,
@@ -2198,6 +2208,10 @@
                 {
                   "name": "distZ",
                   "ioValue": 0
+                },
+                {
+                  "name": "Shape",
+                  "ioValue": "__GEOMETRY_INPUT__"
                 }
               ],
               "codeVersion": 1,
@@ -2376,19 +2390,42 @@
       "fileTypeVersion": 1
     },
     {
-      "atomType": "Readme",
-      "x": 0.4365079365079365,
-      "y": 0.5111111111111111,
-      "uniqueID": "id-814",
-      "name": "README",
+      "atomType": "Gcode",
+      "x": 0.7883597883597884,
+      "y": 0.6194444444444445,
+      "uniqueID": "id-1040",
       "ioValues": [
         {
-          "name": "value",
+          "name": "geometry",
           "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Tool Size",
+          "ioValue": 3.125,
+          "currentEquation": "3.125"
+        },
+        {
+          "name": "Passes",
+          "ioValue": 1,
+          "currentEquation": "1"
+        },
+        {
+          "name": "Speed",
+          "ioValue": 500,
+          "currentEquation": "500"
+        },
+        {
+          "name": "Cut Through",
+          "ioValue": 0
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Stove_Interior_Cutout",
+          "currentEquation": "Stove_Interior_Cutout"
         }
       ],
-      "readMeText": "This is a 60mm X and 63mm Y offset from the bottom left corner",
-      "global": true
+      "partName": "Stove_Interior_Cutout",
+      "sortDirection": "Left"
     }
   ],
   "allConnectors": [
@@ -2401,6 +2438,11 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-471",
       "ap2ID": "id-262"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-471",
+      "ap2ID": "id-1040"
     },
     {
       "ap2Name": "geometry2",

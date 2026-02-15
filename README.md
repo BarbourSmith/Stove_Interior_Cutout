@@ -8,5 +8,7 @@
 
  This is a 60mm X and 63mm Y offset from the bottom left corner
 
+**Value:** __GEOMETRY_INPUT__
+
 
 
