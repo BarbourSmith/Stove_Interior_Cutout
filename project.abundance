@@ -453,12 +453,13 @@
         },
         {
           "name": "Cut Through",
-          "ioValue": 0
+          "ioValue": 1,
+          "currentEquation": "1"
         },
         {
           "name": "Part Name",
-          "ioValue": "Stove_Interior_Cutout",
-          "currentEquation": "Stove_Interior_Cutout"
+          "ioValue": "Stove Interior Cutout",
+          "currentEquation": "Stove Interior Cutout"
         }
       ],
       "partName": "Stove_Interior_Cutout",
@@ -2178,6 +2179,10 @@
                 {
                   "name": "distZ",
                   "ioValue": 0
+                },
+                {
+                  "name": "Shape",
+                  "ioValue": "__GEOMETRY_INPUT__"
                 }
               ],
               "codeVersion": 1,
@@ -2243,10 +2248,6 @@
                 {
                   "name": "distZ",
                   "ioValue": 0
-                },
-                {
-                  "name": "Shape",
-                  "ioValue": "__GEOMETRY_INPUT__"
                 }
               ],
               "codeVersion": 1,
