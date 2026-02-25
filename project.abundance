@@ -431,8 +431,8 @@
     },
     {
       "atomType": "Gcode",
-      "x": 0.7883597883597884,
-      "y": 0.6194444444444445,
+      "x": 0.7910052910052909,
+      "y": 0.6138888888888889,
       "uniqueID": "id-1040",
       "ioValues": [
         {
@@ -441,7 +441,8 @@
         },
         {
           "name": "Tool Size",
-          "ioValue": 3.125
+          "ioValue": 6.35,
+          "currentEquation": "6.35"
         },
         {
           "name": "Passes",
@@ -458,8 +459,8 @@
         },
         {
           "name": "Part Name",
-          "ioValue": "Stove Interior Cutout",
-          "currentEquation": "Stove Interior Cutout"
+          "ioValue": "Stove Interior Cutout Quarter",
+          "currentEquation": "Stove Interior Cutout Quarter"
         }
       ],
       "partName": "Stove_Interior_Cutout",
@@ -1261,8 +1262,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.2195767195767196,
-      "y": 0.8333333333333334,
+      "x": 0.2208994708994709,
+      "y": 0.8305555555555555,
       "uniqueID": "id-379",
       "name": "Stove Hole",
       "topLevel": false,
@@ -1928,8 +1929,8 @@
         },
         {
           "atomType": "Circle",
-          "x": 0.28703703703703703,
-          "y": 0.7,
+          "x": 0.28968253968253965,
+          "y": 0.7111111111111111,
           "uniqueID": "id-490",
           "ioValues": [
             {
